@@ -1,0 +1,614 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: rgb(31, 31, 31);
+    box-sizing: border-box;
+}
+.a{
+    /* background-color: aqua; */
+    /* height:5718px; */
+    width:80vw;
+    height: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.main{
+    height: 800px;
+}
+.mainleft{
+    height: 100%;
+    width: 50%;
+    float:left;
+    /* background-color: azure; */
+}
+.texttbx{
+    position: relative;
+    top:100px;
+    /*left:160px; */
+    width:100%;
+    /* background-color: aquamarine; */
+    
+}
+.maintext{
+    
+    color: white;
+    font-size: 75px;
+    font-weight: bolder;
+    display: block;
+}
+.mainsubtext{
+    position: relative;
+    top:35px;
+    color: white;
+    font-size: 35px;
+    display: block;
+}
+.mainright{
+    height: 100%;
+    width: 50%;
+    float:left;
+}
+.wom{
+    position: relative;
+    top:50px;
+    left:40px;
+    width : 90%;
+}
+.cntacts{
+    position: relative;
+    top:80px;
+    padding: 15px 50px 15px 50px;
+    border-color: transparent;
+    border-radius: 20px;
+    background-color: rgb(77, 77, 244);
+    color:white;
+    font-size: 20px;
+}
+.cntacts:hover{
+    background-color: rgb(31, 31, 160);
+}
+.experience{
+    /* background-color: rgb(52, 59, 59); */
+    height:400px;
+    width: 100%;
+    float:left;
+    margin-top: 115px;
+}
+.eleft{
+    /* background-color: antiquewhite; */
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+.erig{
+    
+    height: 100%;
+    width:70%;
+    float:left;
+}
+.headings{
+    font-size: 30px;
+    color:white;
+
+}
+.er1{
+    margin-left: 30px;
+    height: 90%;
+    width: 30%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.er3{
+    margin-left: 30px;
+    height: 90%;
+    width: 30%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.erinner1{
+    text-align: center;
+    margin-bottom: 30px;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(63, 63, 63);
+    float:left;
+    
+}
+.erinner1:hover{
+    background-color: rgb(255, 0, 128);
+}
+.erinner2:hover{
+    background-color: rgb(255, 0, 128);
+}
+.erinner3:hover{
+    background-color: rgb(255, 0, 128);
+}
+.erinner2{
+    text-align: center;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(63, 63, 63);
+    float:left;
+    
+}
+.erinner3{
+    text-align: center;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(63, 63, 63);
+    float:left;
+    
+}
+.exptxt{
+    position: relative;
+    top:30px;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+.exptxt1{
+    position: relative;
+    top:30px;
+    color: white;
+}
+.myprojects{
+    float:left;
+    margin-top: 115px;
+    height: 1050px;
+    width: 100%;
+    /* background-color: rgb(94, 94, 94); */
+}
+.pro1{
+    height:30%;
+    /* background-color: rgb(54, 54, 54); */
+}
+.pro1mid{
+    /* background-color: azure; */
+    height: 100%;
+    width: 40%;
+    float:left;
+}
+.pro1midtext{
+    font-size: 43px;
+    color:white;
+}
+.proL{
+    /* background-color: aliceblue; */
+    height: 100%;
+    width: 30%;
+    float:left;
+    
+}
+.proL2{
+    width: 40%;
+    float: right;
+    /* background-color: aqua; */
+    position: relative;
+    right: 25px;
+}
+.behance{
+    padding: 17px 55px 17px 55px;
+    border-color: transparent;
+    border-radius: 13px;
+    background-color: rgb(77, 77, 244);
+    color:white;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 55px;
+
+}
+.behance:hover{
+    background-color: rgb(31, 31, 160);
+}
+.dribble{
+    padding: 17px 60px 17px 60px;
+    border-color: transparent;
+    border-radius: 13px;
+    background-color: rgb(255, 0, 128);
+    color:white;
+    font-size: 20px;
+    display: block;
+}
+.dribble:hover{
+    background-color: rgb(150, 18, 84);
+}
+#beh{
+    display: inline;
+    font-size: 17px;
+    margin-right: 4px;
+}
+#drib{
+    display: inline;
+    font-size: 17px;
+    margin-right: 4px;
+}
+.pro2{
+    height: 70%;
+    /* background-color: cadetblue; */
+}
+.p21{
+    height: 97.34%;
+    width: 32.45%;
+    /* background-color: aliceblue; */
+    float:left;
+    margin-right: 20px;
+}
+.p211{
+    height: 50%;
+    background-color: rgb(224, 224, 224);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.p212{
+    height: 50%;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p22{
+    height: 97.34%;
+    width: 32.45%;
+    /* background-color: rgb(5, 5, 5); */
+    float:left;
+    margin-right: 20px;
+}
+.p23{
+    height: 97.34%;
+    width: 32.45%;
+    /* background-color: rgb(25, 110, 184); */
+    float:left;
+}
+.pblock{
+    /* background-color: blanchedalmond; */
+    height: 40%;
+    width: 50%;
+}
+#rise{
+    font-size: 100px;
+    color:rgb(61, 2, 117);
+    margin-left: 90px;
+    margin-right: auto;
+}
+.risetxt{
+    position: relative;
+    left:10px;
+    bottom: 25px;
+    font-size:35px;
+}
+.risetxt1{
+    position: relative;
+    left:45px;
+    bottom: 25px;
+    font-size:35px;
+}
+.risetxt2{
+    position: relative;
+    left:50px;
+    bottom: 25px;
+    font-size:35px;
+}
+.risetxt3{
+    position: relative;
+    left:60px;
+    bottom: 25px;
+    font-size:35px;
+}
+.personel{
+    /* background-color: aliceblue; */
+    float:left;
+    margin-top: 115px;
+    height: 600px;
+    width: 100%;
+}
+.per1{
+    height: 100%;
+    width: 29.8%;
+    /* background-color: rgb(0, 0, 0); */
+    /* border: 1px solid white; */
+    float:left;
+}
+.per3{
+    height: 100%;
+    width: 40%;
+    /* background-color: rgb(0, 0, 0); */
+    /* border: 1px solid white; */
+    float:left;
+}
+.per2{
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(0, 0, 0); */
+    /* border: 1px solid white; */
+    float:left;
+}
+.pertx1{
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    display: block;
+}
+.pertx2{
+    font-size: 25px;
+    font-weight: lighter;
+    color: white;
+    display: block;
+}
+.pertx3{
+    font-size: 23px;
+    font-weight: lighter;
+    color: white;
+    display: block;
+}
+.perx{
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(0, 0, 0); */
+    /* border: 1px solid white; */
+    float:left;
+}
+.readmore{
+    position: relative;
+    top:120px;
+    padding: 15px 50px 15px 50px;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: rgb(77, 77, 244);
+    color:white;
+    font-size: 20px;
+    float:right;
+}
+.readmore:hover{
+    background-color: rgb(31, 31, 160);
+}
+.pimgs{
+    border-radius: 10px;
+}
+.squareimg{
+    /* background-color: rgb(0, 0, 0); */
+    float:left;
+    margin-top: 115px;
+    height: 700px;
+    width: 100%;
+}
+.sq1{
+    /* background-color: rgb(107, 108, 109); */
+    height: 97.34%;
+    width: 32.45%;
+    float: left;
+    /* border: 1px solid wheat; */
+    margin-right: 20px;
+}
+.sq2{
+    /* background-color: rgb(107, 108, 109); */
+    height: 97.34%;
+    width: 32.45%;
+    float: left;
+    /* border: 1px s2olid wheat; */
+    margin-right: 20px;
+}
+.sq3{
+    /* background-color: rgb(107, 108, 109); */
+    height: 97.35%;
+    width: 32.45%;
+    float: left;
+    /* border: 1px solid wheat; */
+}
+.sqi1{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid wheat; */
+    float: left;
+    margin-bottom: 14px;
+}
+.sqi2{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid wheat; */
+    float: left;
+    margin-bottom: 14px;
+}
+.skills{
+    /* background-color: grey; */
+    float:left;
+    margin-top: 115px;
+    height: 440px;
+    width: 100%;
+}
+.sklz{
+    font-size: 53px;
+    color:white;
+    font-weight: lighter;
+}
+.sk1mid{
+    height: 100%;
+    width: 40%;
+    float:left;
+}
+.skL{
+    height: 100%;
+    width: 30%;
+    float:left;
+}
+.srtop{
+    /* background-color: black; */
+    height: 48%;
+    width: 100%;
+    margin-bottom: 4%;
+}
+.srbot{
+    /* background-color: black; */
+    height: 49%;
+    width: 100%;
+    
+}
+.leftt{
+    background-color: rgb(63, 63, 63);
+    height: 100%;
+    width: 48%;
+    margin-right: 4%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightt{
+    background-color: rgb(63, 63, 63);
+    height: 100%;
+    width: 48%;
+    float:left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last1{
+    /* background-color: grey; */
+    float:left;
+    margin-top: 115px;
+    height: 680px;
+    width: 100%;
+    /* border: 3px solid white; */
+}
+.ll{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid whitesmoke; */
+    float: left;
+}
+.l1{
+    height: 100%;
+    width: 50%;
+    float:left;
+}
+.lt1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+.lt2{
+    font-size: 22px;
+    font-weight: lighter;
+    color: white;
+    display: block;
+}
+.ip{
+    height: 45px;
+    width: 450px;
+    font-size: 20px;
+    font-weight: lighter;
+    border-radius: 10px;
+    border-color: transparent;
+    display: inline;
+}
+.ip::placeholder{
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(187, 187, 187);
+    position: relative;
+    top:3px;
+    left:15px;
+}
+.ipsub{
+    height: 50px;
+    width: 130px;
+    font-size: 17px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border-color: transparent;
+    margin-left: 10px;
+    background-color: rgb(255, 0, 128);
+    color: white;
+}
+.ipsub:hover,.ltl:hover{
+    background-color: rgb(150, 18, 84);;
+}
+.ltl{
+    height:69px;
+    width:320px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    background-color:rgb(255, 0, 128);
+    border-radius: 10px;
+    border-color: transparent;
+    float:right;
+    position: relative;
+    top:65px;
+}
+
+.l11{
+    height: 100%;
+    width: 80%;
+}
+.addre{
+    color:white;
+    font-size:32px;
+    font-weight:lighter;
+    display: block;
+}
+.lnum{
+    font-size: 32px;
+    color: white;
+    font-weight: bolder;
+    display: block;
+}
+.lnum2{
+    font-size: 32px;
+    color: rgb(255, 0, 128);
+    font-weight: bolder;
+    display: block;
+}
+.reallylast{
+    background-color: rgb(58, 58, 58);
+    float:left;
+    margin-top: 115px;
+    height: 250px;
+    width: 100%;
+}
+.rl1{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid  white; */
+    text-align: center;
+    float:left;
+}
+.rl22{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid  white; */
+    text-align: center;
+    float:left;
+}
+.rl2{
+    width: 100%;
+    height: 50%;
+}
+.rltop{
+    position: relative;
+    top:50px;
+    color:white;
+    font-weight: lighter;
+    font-size: 17px;
+}
+.rlbot{
+    
+    color:white;
+    font-weight: lighter;
+    font-size: 17px;
+    position: relative;
+    top:40px;
+    left:35px;
+}
+.rlcap{
+    float:right;
+    position: relative;
+    top:45px;
+    
+}
