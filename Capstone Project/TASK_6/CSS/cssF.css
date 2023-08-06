@@ -7,9 +7,9 @@ body{
 }
 .a{
     /* background-color: aqua; */
-    /* height:5718px; */
-    width:80vw;
-    height: 100vw;
+    height:5718px;
+    width:80%;
+    /* height: 100vw; */
     margin-left: auto;
     margin-right: auto;
     
